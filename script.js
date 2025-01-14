@@ -19,8 +19,9 @@ function list_creaton(li,full_task){
     remove_btn.classList.add('li-style-button');
     
     document.getElementById('list-details').appendChild(li);
-    li.appendChild(remove_btn);
     li.appendChild(complete_btn);
+    li.appendChild(remove_btn);
+    
     
 
     complete_btn.addEventListener('click',function(){
