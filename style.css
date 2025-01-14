@@ -69,14 +69,14 @@ input{
     width: 400px;
 }
 
-.add-btn{
+#add-btn{
     margin-left: 10px;
-    background-color: #7c7c7c;
+    background-color: #aaaaaa;
     font-weight: bold;
     cursor: pointer;
 }
 
-.add-btn:hover{
+#add-btn:hover{
     box-shadow: 0px 0px 10px #aaaaaa;
 }
 
@@ -89,13 +89,18 @@ input{
 }
 
 .li-style-button{
-    padding: 3px;
-    background-color:#c0c0c0;
+    padding: 6px;
+    width: 80px;
+    background-color:#aaaaaa;
     margin-left: 10px;
     cursor: pointer;
-    float: right;
 }
 
+span{
+    display: inline-block;
+    width: 70%;
+    word-wrap: break-word;
+}
 .no_display{
     display: none;
 }
