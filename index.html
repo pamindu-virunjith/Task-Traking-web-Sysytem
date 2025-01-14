@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Tracking Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="wall">
+        <section class="main-container">
+            <div class="main-title">
+                <h1>Task Tracking Application</h1>
+            </div>
+            <div class="get-task">
+                <form id="myform">
+                    <div>
+                        <input id="task-des" type="text" placeholder="Enter a task here..">
+                        <select name="cat1" id="category1">
+                            <option value="Work">Work</option>
+                            <option value="Personal">Personal</option>
+                            <option value="Urgent">Urgent</option>
+                        </select>
+                        <button id="add-btn">Add Task</button>
+                    </div>
+                    <div class="filter-section">
+                        <label for="category">Filter by Category: </label>
+                        <select name="cat" id="category">
+                            <option value="All" selected>All</option>
+                            <option value="Work">Work</option>
+                            <option value="Personal">Personal</option>
+                            <option value="Urgent">Urgent</option>
+                        </select>
+                    </div>
+                </form>
+            </div>
+            <div class="task-container">
+                <h2>Tasks</h2>
+                <div id="list-container">
+                    <ul id="list-details">
+                        
+                    </ul>
+                </div>
+                <div>
+                    <button id="clear_button">Clear All</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

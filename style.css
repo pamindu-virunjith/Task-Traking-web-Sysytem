@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.wall{
+    width: 100%;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.main-container{
+    width: 70%;
+    min-height: 450px;
+    background-color: #dfdedc;  
+    border-radius: 20px; 
+    box-shadow: 0px 0px 10px #aaaaaa;
+}
+
+.main-title{
+    width: 100%;
+    background-color: #c0c0c0;
+    border-radius: 20px 20px 0px 0px;
+    font-family: monospace;
+    text-align: center;
+    padding: 30px 0px ;
+    font-size: 20px;
+}
+
+.get-task{
+    padding: 30px 0px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.filter-section{
+    padding: 30px;
+}
+
+.task-container{
+    width: 70%;
+    margin: 0 auto;
+    /* background-color: aquamarine; */
+    padding-bottom: 30px;
+}
+
+.task-container h2{
+    padding-bottom: 20px;
+}
+
+input,select,button{
+    font-size: 16px;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+input:focus, select:focus{
+    outline: none;
+}
+
+input{
+    width: 400px;
+}
+
+.add-btn{
+    margin-left: 10px;
+    background-color: #7c7c7c;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.add-btn:hover{
+    box-shadow: 0px 0px 10px #aaaaaa;
+}
+
+.li-style{
+    list-style-type: none;
+    background-color: white;
+    padding: 10px;
+    margin: 5px 0px;
+    border: 1px solid #c0c0c0;
+}
+
+.li-style-button{
+    padding: 3px;
+    background-color:#c0c0c0;
+    margin-left: 10px;
+    cursor: pointer;
+    float: right;
+}
+
+.no_display{
+    display: none;
+}
+
+#clear_button{
+    display: none;
+    box-shadow: 0px 0px 10px #aaaaaa;
+    cursor: pointer;
+    padding: 10px 20px;
+}
